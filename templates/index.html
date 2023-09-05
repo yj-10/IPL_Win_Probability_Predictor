@@ -102,7 +102,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-6 col-sm-12 col-xl-6 col-xxl-6 ">
+        <div class="col-md-12 col-lg-6 col-sm-12 col-xl-6 col-xxl-6 "> 
           <div class="img-box">
             <!-- <img src="cricket.jpg" class="img-fluid w-100 " style="margin-top: 100px;"  alt="" /> -->
             <img src="{{url_for('static', filename='man-playing.jpg')}}" class="img-fluid w-100 " style="margin-top: 100px;"  alt="" />
@@ -120,7 +120,7 @@
       <div class=" d-flex  ">
      
         <select class="", name="Batting_Team", id="Batting_Team" required>
-        <option selected>Select The Batting Team</option>
+        <option selected value="">Select The Batting_Team</option>
           <option>Sunrisers Hyderabad</option>
           <option>Mumbai Indians</option>
           <option>Royal Challengers Bangalore</option>
@@ -134,7 +134,7 @@
         &nbsp;
         &nbsp;
         <select class="", name="Bowling_Team",id="Bowling_Team" required>
-          <option selected>Select The Bowling Team</option>
+          <option selected value="">Select The Bowling Team</option>
           <option>Sunrisers Hyderabad</option>
           <option>Mumbai Indians</option>
           <option>Royal Challengers Bangalore</option>
@@ -148,7 +148,7 @@
 
       <div class=" mb-2">
         <select class="", name="City",id="City" required>
-          <option selected>Select Host City</option>
+          <option selected value="">Select Host City</option>
           <option>Hyderabad</option>
           <option>Bengaluru</option>
           <option>Mumbai</option>
